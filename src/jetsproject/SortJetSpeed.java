@@ -12,10 +12,11 @@ public class SortJetSpeed {
 					j[i] = temp;
 				}
 		}
-		for (int i = 0; i < j.length; i++) {
-			if (j[i] != null) {
-				System.out.println(j[i]);
-			}
-		}
+		System.out.println("Fastest jet: " + j[0]);
+//		for (int i = 0; i < j.length; i++) {
+//			if (j[i] != null) {
+//				System.out.println(j[i]);
+//			}
+//		}
 	}
 }

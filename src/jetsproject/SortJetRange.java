@@ -12,10 +12,12 @@ public class SortJetRange {
 					j[i] = temp;
 				}
 		}
-		for (int i = 0; i < j.length; i++) {
-			if (j[i] != null) {
-				System.out.println(j[i]);
+		System.out.println("Longest range jet: " + j[0]);
+
+//		for (int i = 0; i < j.length; i++) {
+//			if (j[i] != null) {
+//				System.out.println(j[i]);
 			}
-		}
+//		}
 	}
-}
+//}
