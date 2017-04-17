@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PilotMenu {
 	int choice = 0;
 	
-	public void menuPilot(Jet [] j, Pilot [] p, int numberofpilots) {
+	public void menuPilot(Jet [] j, Pilot [] p, int numberofjets, int numberofpilots) {
 		Scanner input = new Scanner(System.in);
 		
 		AssignJetPilot assign = new AssignJetPilot();
@@ -21,7 +21,7 @@ public class PilotMenu {
 			
 			switch (choice) {
 			case 1:
-				assign.listJetPilot(j, p);
+				assign.listJetPilot(j, p, numberofjets);
 				break;
 			
 			case 2:

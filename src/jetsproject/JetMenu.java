@@ -68,7 +68,7 @@ public class JetMenu {
 				break;
 
 			case 5:
-				newMenu.menuPilot(j, p, numberofpilots);
+				newMenu.menuPilot(j, p, numberofjets, numberofpilots);
 			case 6:
 				System.out.println("Goodbye.");
 
